@@ -16,6 +16,10 @@
 		B20568502641C31C00538E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B205684E2641C31C00538E4A /* LaunchScreen.storyboard */; };
 		B205685B2641C31C00538E4A /* practicaCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B205685A2641C31C00538E4A /* practicaCoreDataTests.swift */; };
 		B20568662641C31C00538E4A /* practicaCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20568652641C31C00538E4A /* practicaCoreDataUITests.swift */; };
+		B205687A2641C67B00538E4A /* Ciudad+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20568762641C67B00538E4A /* Ciudad+CoreDataClass.swift */; };
+		B205687B2641C67B00538E4A /* Ciudad+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20568772641C67B00538E4A /* Ciudad+CoreDataProperties.swift */; };
+		B205687C2641C67B00538E4A /* Pais+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20568782641C67B00538E4A /* Pais+CoreDataClass.swift */; };
+		B205687D2641C67B00538E4A /* Pais+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20568792641C67B00538E4A /* Pais+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		B20568612641C31C00538E4A /* practicaCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practicaCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20568652641C31C00538E4A /* practicaCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaCoreDataUITests.swift; sourceTree = "<group>"; };
 		B20568672641C31C00538E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20568762641C67B00538E4A /* Ciudad+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ciudad+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B20568772641C67B00538E4A /* Ciudad+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ciudad+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B20568782641C67B00538E4A /* Pais+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pais+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B20568792641C67B00538E4A /* Pais+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pais+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		B20568342641C31B00538E4A = {
 			isa = PBXGroup;
 			children = (
+				B20568762641C67B00538E4A /* Ciudad+CoreDataClass.swift */,
+				B20568772641C67B00538E4A /* Ciudad+CoreDataProperties.swift */,
+				B20568782641C67B00538E4A /* Pais+CoreDataClass.swift */,
+				B20568792641C67B00538E4A /* Pais+CoreDataProperties.swift */,
 				B205683F2641C31B00538E4A /* practicaCoreData */,
 				B20568592641C31C00538E4A /* practicaCoreDataTests */,
 				B20568642641C31C00538E4A /* practicaCoreDataUITests */,
@@ -261,10 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B205687D2641C67B00538E4A /* Pais+CoreDataProperties.swift in Sources */,
 				B20568452641C31B00538E4A /* ViewController.swift in Sources */,
+				B205687B2641C67B00538E4A /* Ciudad+CoreDataProperties.swift in Sources */,
 				B20568412641C31B00538E4A /* AppDelegate.swift in Sources */,
 				B20568432641C31B00538E4A /* SceneDelegate.swift in Sources */,
 				B205684B2641C31B00538E4A /* practicaCoreData.xcdatamodeld in Sources */,
+				B205687A2641C67B00538E4A /* Ciudad+CoreDataClass.swift in Sources */,
+				B205687C2641C67B00538E4A /* Pais+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
