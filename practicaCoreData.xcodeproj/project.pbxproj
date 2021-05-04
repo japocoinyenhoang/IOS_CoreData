@@ -89,10 +89,7 @@
 		B20568342641C31B00538E4A = {
 			isa = PBXGroup;
 			children = (
-				B20568762641C67B00538E4A /* Ciudad+CoreDataClass.swift */,
-				B20568772641C67B00538E4A /* Ciudad+CoreDataProperties.swift */,
-				B20568782641C67B00538E4A /* Pais+CoreDataClass.swift */,
-				B20568792641C67B00538E4A /* Pais+CoreDataProperties.swift */,
+				B20568812641C82C00538E4A /* model */,
 				B205683F2641C31B00538E4A /* practicaCoreData */,
 				B20568592641C31C00538E4A /* practicaCoreDataTests */,
 				B20568642641C31C00538E4A /* practicaCoreDataUITests */,
@@ -141,6 +138,17 @@
 				B20568672641C31C00538E4A /* Info.plist */,
 			);
 			path = practicaCoreDataUITests;
+			sourceTree = "<group>";
+		};
+		B20568812641C82C00538E4A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B20568762641C67B00538E4A /* Ciudad+CoreDataClass.swift */,
+				B20568772641C67B00538E4A /* Ciudad+CoreDataProperties.swift */,
+				B20568782641C67B00538E4A /* Pais+CoreDataClass.swift */,
+				B20568792641C67B00538E4A /* Pais+CoreDataProperties.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

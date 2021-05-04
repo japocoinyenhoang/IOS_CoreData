@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var miPais = Pais()
 
     override func viewDidLoad() {
         super.viewDidLoad()
