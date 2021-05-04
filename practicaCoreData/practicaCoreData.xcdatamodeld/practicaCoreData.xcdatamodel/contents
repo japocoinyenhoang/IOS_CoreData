@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Ciudad" representedClassName="Ciudad" syncable="YES" codeGenerationType="class">
+        <attribute name="idCiudad" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Pais" representedClassName="Pais" syncable="YES" codeGenerationType="class">
+        <attribute name="idPais" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <relationship name="paisesCiudades" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ciudad"/>
+    </entity>
+    <elements>
+        <element name="Pais" positionX="-358.0009765625" positionY="-118.3482055664062" width="128" height="88"/>
+        <element name="Ciudad" positionX="-54" positionY="9" width="128" height="59"/>
+    </elements>
 </model>
